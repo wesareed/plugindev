@@ -2,29 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed90c3ff-a454-42e5-880a-eab700fc9dd1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/wesreed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/public/wp-content/plugins/plugin-dev-101/pd101-scripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/public/wp-content/plugins/plugin-dev-101/pd101-styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-config.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-config.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/plugin-dev-101/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-content/plugins/plugin-dev-101/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/mysql/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/mysql/error.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/nginx/access.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/nginx/access.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/nginx/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/nginx/error.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/php/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/php/error.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/php/php-fpm.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/php/php-fpm.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/supervisor/MailHog-stderr---supervisor-Fz6pKF.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/supervisor/MailHog-stdout---supervisor-A9K9Fk.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/supervisor/mysql-stderr---supervisor-pRbO24.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/supervisor/mysql-stdout---supervisor-HIJUYo.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/supervisor/nginx-stderr---supervisor-F0fLpX.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/supervisor/nginx-stdout---supervisor-TdyRdW.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/supervisor/php-fpm-stderr---supervisor-eA62Yq.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/supervisor/php-fpm-stdout---supervisor-5OByNM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/supervisor/supervisord.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/supervisor/supervisord.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/supervisor/varnish-plugins-watcher-stderr---supervisor-phnxFi.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/supervisor/varnish-plugins-watcher-stdout---supervisor-8or6h6.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/supervisor/varnish-themes-watcher-stderr---supervisor-UlV6K9.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/supervisor/varnish-themes-watcher-stdout---supervisor-DtTYh3.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/supervisor/varnishd-stderr---supervisor-GZY0qs.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/supervisor/varnishd-stdout---supervisor-QSeOja.log" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -38,11 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/public/wp-content/plugins/plugin-dev-101/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
-              <caret line="82" column="54" lean-forward="true" selection-start-line="82" selection-start-column="54" selection-end-line="82" selection-end-column="54" />
+            <state relative-caret-position="609">
+              <caret line="105" column="83" selection-start-line="105" selection-start-column="83" selection-end-line="105" selection-end-column="83" />
               <folding>
                 <element signature="e#6#175#0#PHP" expanded="true" />
               </folding>
@@ -50,12 +34,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="pd101-scripts.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/public/wp-content/plugins/plugin-dev-101/pd101-scripts.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pd101-styles.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/public/wp-content/plugins/plugin-dev-101/pd101-styles.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -69,8 +74,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/app/public/wp-content/themes/plugin-dev-101/index.php" />
-        <option value="$PROJECT_DIR$/app/public/wp-content/plugins/plugin-dev-101/index.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/app/public/wp-content/plugins/plugin-dev-101/pd-101.css" />
+        <option value="$PROJECT_DIR$/app/public/wp-config.php" />
+        <option value="$PROJECT_DIR$/app/public/wp-content/plugins/plugin-dev-101/pd101-styles.css" />
+        <option value="$PROJECT_DIR$/app/public/wp-content/plugins/plugin-dev-101/pd101-scripts.js" />
+        <option value="$PROJECT_DIR$/app/public/wp-content/plugins/plugin-dev-101/index.php" />
       </list>
     </option>
   </component>
@@ -109,6 +118,41 @@
               <item name="plugindev" type="b2602c69:ProjectViewProjectNode" />
               <item name="plugindev" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="plugindev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="plugindev" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="plugindev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="plugindev" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="plugindev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="plugindev" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="plugindev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="plugindev" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="plugindev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="plugindev" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="plugin-dev-101" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -118,6 +162,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="settings.php.frameworks" />
@@ -151,12 +196,12 @@
       <updated>1529685160579</updated>
       <workItem from="1529685163761" duration="3297000" />
       <workItem from="1529951463892" duration="17000" />
-      <workItem from="1530282124103" duration="1893000" />
+      <workItem from="1530282124103" duration="4115000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5207000" />
+    <option name="totallyTimeSpent" value="7429000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="0" />
@@ -167,11 +212,11 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3298969" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3298969" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3298969" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -213,18 +258,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/public/wp-cron.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/public/wp-settings.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/public/wp-includes/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2899" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/public/wp-config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="639">
+          <caret line="86" lean-forward="true" selection-start-line="86" selection-end-line="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/public/wp-content/plugins/plugin-dev-101/pd101-styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/public/wp-content/plugins/plugin-dev-101/pd101-scripts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/public/wp-content/plugins/plugin-dev-101/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="82" column="54" lean-forward="true" selection-start-line="82" selection-start-column="54" selection-end-line="82" selection-end-column="54" />
+        <state relative-caret-position="609">
+          <caret line="105" column="83" selection-start-line="105" selection-start-column="83" selection-end-line="105" selection-end-column="83" />
           <folding>
             <element signature="e#6#175#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>

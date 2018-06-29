@@ -17,3 +17,9 @@ Stack trace:
 [28-Jun-2018 01:08:11 UTC] PHP Warning:  Error while sending QUERY packet. PID=297 in /app/public/wp-includes/wp-db.php on line 1924
 [29-Jun-2018 16:03:42 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /app/public/wp-content/plugins/plugin-dev-101/index.php on line 89
 [29-Jun-2018 16:04:42 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/plugins/plugin-dev-101/index.php on line 90
+[29-Jun-2018 16:34:21 UTC] PHP Parse error:  syntax error, unexpected ')' in /app/public/wp-content/plugins/plugin-dev-101/index.php on line 106
+[29-Jun-2018 16:47:59 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 20480 bytes) in /app/public/wp-includes/class.wp-dependencies.php on line 281
+[29-Jun-2018 16:48:09 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 20480 bytes) in /app/public/wp-includes/class.wp-dependencies.php on line 282
+[29-Jun-2018 16:49:30 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 262144 bytes) in /app/public/wp-includes/link-template.php on line 3379
+[29-Jun-2018 16:49:30 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 262144 bytes) in /app/public/wp-includes/load.php on line 679
+[29-Jun-2018 16:52:34 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 20480 bytes) in /app/public/wp-includes/class.wp-dependencies.php on line 282
