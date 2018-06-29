@@ -81,3 +81,21 @@ function pd101_register_book_post_type() {
 
 }
 add_action( 'init', 'pd101_register_book_post_type' );
+
+
+//Add custom shortcode
+function pd101_message_shortcode( $atts ) {
+
+	//Sets default shortcode attributes
+	$atts = shortcode_atts(
+		array(
+			'color' => 'blue',
+			'text'  => 'Text message'
+		),
+		$atts
+	);
+
+	//Allow custom shortcode attributes
+	return '<div class="message ' . esc_attr( $atts['color'] ) . '">' . esc_html( $atts['text'] ) . '</div>';
+}
+add_shortcode( 'message', 'pd101_message_shortcode' );

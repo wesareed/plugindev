@@ -1,0 +1,1 @@
+2018/06/22 21:59:01 [alert] 17#0: *389 write() to "/var/log/nginx/access.log" failed (116: Stale file handle) while logging request, client: 127.0.0.1, server: site_domain, request: "POST /wp-admin/admin-ajax.php HTTP/1.0", upstream: "fastcgi://unix:/var/run/php-fpm.sock", host: "plugindev.local", referrer: "http://plugindev.local/wp-admin/plugins.php"
