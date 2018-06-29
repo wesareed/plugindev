@@ -23,3 +23,6 @@ Stack trace:
 [29-Jun-2018 16:49:30 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 262144 bytes) in /app/public/wp-includes/link-template.php on line 3379
 [29-Jun-2018 16:49:30 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 262144 bytes) in /app/public/wp-includes/load.php on line 679
 [29-Jun-2018 16:52:34 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 20480 bytes) in /app/public/wp-includes/class.wp-dependencies.php on line 282
+[29-Jun-2018 20:17:57 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'p101_render_admin' not found or invalid function name in /app/public/wp-includes/class-wp-hook.php on line 286
+[29-Jun-2018 20:19:28 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'p101_render_admin' not found or invalid function name in /app/public/wp-includes/class-wp-hook.php on line 286
+[29-Jun-2018 20:25:43 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'pd101_redner_settings' not found or invalid function name in /app/public/wp-includes/class-wp-hook.php on line 286

@@ -102,8 +102,27 @@ add_shortcode( 'message', 'pd101_message_shortcode' );
 
 
 
+//Add Scripts and Styles
 function pd101_load_styles() {
 	wp_enqueue_style( 'pd101-styles', plugins_url( 'pd101-styles.css', __FILE__) );
 	wp_enqueue_script( 'pd101-scripts', plugins_url( 'pd101-scripts.js', __FILE__), array('jquery'), '1.0');
 }
 add_action( 'wp_enqueue_scripts', 'pd101_load_styles' );
+
+
+//Add Dashboard Menus and Submenus
+function pd101_add_menu_page() {
+
+	add_menu_page( 'Plugin Dev 101', 'PD101', 'edit_pages', 'pd101', 'pd101_render_admin', false , 62 );
+	add_submenu_page( 'pd101', 'PD101 Settings', 'Settings', 'edit_pages', 'pd101-settings', 'pd101_render_settings' );
+
+}
+add_action( 'admin_menu', 'pd101_add_menu_page');
+
+function pd101_render_admin() {
+	echo 'This is our admin screen';
+}
+
+function pd101_render_settings() {
+	echo 'This is our settings screen';
+}
